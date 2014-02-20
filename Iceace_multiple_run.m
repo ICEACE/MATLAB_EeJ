@@ -28,7 +28,6 @@ for i = 1:numel(RandomSeeds_grid)
                     SimulationRunPar.BudgetConstraint,SimulationRunPar.CapitalistProb)
                             
                 ICEACE_initialization_multiple
-                keyboard
                 ICEACE_simulation_multiple
             
                 clear Households Banks CsrtFirms Government CentralBank Firms Fund
